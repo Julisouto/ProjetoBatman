@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hower {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.formulario {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(219, 214, 214);
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cards-content {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+.banner-1 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/02/the-batman-robert-pattinson.jpeg'); 
+}
+
+.banner-2 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://www.sociedadenerd.com.br/wp-content/uploads/2021/10/the-batman-tudo-sobre-o-filme.jpg'); 
+}
+.banner-4 {
+    background-image: url('https://www.clubmotor.com.br/wp-content/uploads/2022/07/moto-filme-batman.jpg'); 
+}
+
+.banner-5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYlvDddQ2Ku8UVjXklS-lPJ8uvUDh_w-l7Zg&usqp=CAU');
+}
+
+.banner-6 {
+    background-image: url('https://images.alphacoders.com/120/1207971.jpg'); 
+}
+.banner-7 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUPmaj0FCMZIASNClfUjioY5vaQ1FpC5o3Q&usqp=CAU'); 
+}
+
+.banner-8 {
+    background-image: url('https://www.einerd.com.br/wp-content/uploads/2022/03/the-batman-barry-keoghan-e1646395572340.jpg');
+}
+
+.banner-9 {
+    background-image: url('https://istoe.com.br/wp-content/uploads/2022/03/37-418x235.jpg?x43574'); 
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
